@@ -1,24 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import LoginForm from './components/LoginForm';
+import './App.css'; // Si tienes un archivo CSS personalizado para el componente App
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LoginForm />
     </div>
   );
 }
